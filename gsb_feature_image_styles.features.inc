@@ -298,7 +298,7 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['566x_variable'] = array(
     'name' => '566x_variable',
     'effects' => array(
-      34 => array(
+      3 => array(
         'label' => 'Scale',
         'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
         'effect callback' => 'image_scale_effect',
@@ -310,6 +310,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'data' => array(
           'width' => 566,
           'height' => '',
+          'upscale' => 0,
         ),
         'weight' => 1,
       ),
