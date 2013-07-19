@@ -218,23 +218,6 @@ function gsb_feature_image_styles_image_default_styles() {
         ),
         'weight' => 2,
       ),
-      26 => array(
-        'label' => 'Overlay (watermark)',
-        'help' => 'Choose the file image you wish to use as an overlay, and position it in a layer on top of the canvas.',
-        'effect callback' => 'canvasactions_file2canvas_image',
-        'dimensions passthrough' => TRUE,
-        'form callback' => 'canvasactions_file2canvas_form',
-        'summary theme' => 'canvasactions_file2canvas_summary',
-        'module' => 'imagecache_canvasactions',
-        'name' => 'canvasactions_file2canvas',
-        'data' => array(
-          'xpos' => 'center',
-          'ypos' => 'center',
-          'alpha' => 100,
-          'path' => 'profiles/gsb_public/themes/gsb_theme/images/video_play.png',
-        ),
-        'weight' => 3,
-      ),
     ),
   );
 
