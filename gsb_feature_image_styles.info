@@ -20,3 +20,10 @@ features[image][] = 566x396
 features[image][] = 566x_variable
 features[image][] = 600x440
 features[image][] = 627x367
+
+
+; Information added by drush on 2013-07-18
+version = "master-dev"
+project = "gsb_feature_image_styles"
+datestamp = "1374198596"
+
