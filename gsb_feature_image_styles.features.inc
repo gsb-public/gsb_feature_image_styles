@@ -31,6 +31,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '145x_variable',
   );
 
   // Exported image style: 170x100.
@@ -53,6 +54,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 0,
       ),
     ),
+    'label' => '170x100',
   );
 
   // Exported image style: 170x170.
@@ -75,6 +77,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 0,
       ),
     ),
+    'label' => '170x170',
   );
 
   // Exported image style: 270x158.
@@ -97,6 +100,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 0,
       ),
     ),
+    'label' => '270x158',
   );
 
   // Exported image style: 270x158_video.
@@ -119,6 +123,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '270x158_video',
   );
 
   // Exported image style: 44x44.
@@ -141,6 +146,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 0,
       ),
     ),
+    'label' => '44x44',
   );
 
   // Exported image style: 450x263.
@@ -180,6 +186,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 2,
       ),
     ),
+    'label' => '450x263',
   );
 
   // Exported image style: 450x263_video.
@@ -219,6 +226,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 2,
       ),
     ),
+    'label' => '450x263_video',
   );
 
   // Exported image style: 566x396.
@@ -258,6 +266,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 2,
       ),
     ),
+    'label' => '566x396',
   );
 
   // Exported image style: 566x_variable.
@@ -281,6 +290,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '566x_variable',
   );
 
   // Exported image style: 600x440.
@@ -303,6 +313,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 0,
       ),
     ),
+    'label' => '600x440',
   );
 
   // Exported image style: 627x367.
@@ -325,6 +336,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'weight' => 0,
       ),
     ),
+    'label' => '627x367',
   );
 
   return $styles;

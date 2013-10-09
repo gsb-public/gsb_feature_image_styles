@@ -2,12 +2,11 @@ name = GSB Feature Image Styles
 description = Image styles used throughout the GSB site.
 core = 7.x
 package = GSB
-php = 5.2.4
-version = 7.x-1.0
+version = master-dev
 project = gsb_feature_image_styles
 dependencies[] = image
-datestamp = 1372862959
-features[features_api][] = api:1
+datestamp = 1374198596
+features[features_api][] = api:2
 features[image][] = 145x_variable
 features[image][] = 170x100
 features[image][] = 170x170
@@ -20,10 +19,3 @@ features[image][] = 566x396
 features[image][] = 566x_variable
 features[image][] = 600x440
 features[image][] = 627x367
-
-
-; Information added by drush on 2013-07-18
-version = "master-dev"
-project = "gsb_feature_image_styles"
-datestamp = "1374198596"
-
