@@ -149,6 +149,29 @@ function gsb_feature_image_styles_image_default_styles() {
     'label' => '44x44',
   );
 
+  // Exported image style: 450x253_video.
+  $styles['450x253_video'] = array(
+    'name' => '450x253_video',
+    'label' => '450x253_video',
+    'effects' => array(
+      156 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 450,
+          'height' => 253,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: 450x263.
   $styles['450x263'] = array(
     'name' => '450x263',
