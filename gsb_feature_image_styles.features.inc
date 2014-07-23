@@ -34,6 +34,30 @@ function gsb_feature_image_styles_image_default_styles() {
     'label' => '145x_variable',
   );
 
+  // Exported image style: 1630x_variable.
+  $styles['1630x_variable'] = array(
+    'name' => '1630x_variable',
+    'label' => '1630x_variable',
+    'effects' => array(
+      3 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 1630,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: 170x100.
   $styles['170x100'] = array(
     'name' => '170x100',
@@ -252,6 +276,30 @@ function gsb_feature_image_styles_image_default_styles() {
     'label' => '450x263_video',
   );
 
+  // Exported image style: 536x_variable.
+  $styles['536x_variable'] = array(
+    'name' => '536x_variable',
+    'label' => '536x_variable',
+    'effects' => array(
+      4 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 536,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: 566x396.
   $styles['566x396'] = array(
     'name' => '566x396',
@@ -360,6 +408,30 @@ function gsb_feature_image_styles_image_default_styles() {
       ),
     ),
     'label' => '627x367',
+  );
+
+  // Exported image style: 816x_variable.
+  $styles['816x_variable'] = array(
+    'name' => '816x_variable',
+    'label' => '816x_variable',
+    'effects' => array(
+      1 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 816,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   return $styles;
