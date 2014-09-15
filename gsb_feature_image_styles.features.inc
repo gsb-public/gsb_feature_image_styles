@@ -39,7 +39,7 @@ function gsb_feature_image_styles_image_default_styles() {
     'name' => '1630x_variable',
     'label' => '1630x_variable',
     'effects' => array(
-      3 => array(
+      21 => array(
         'label' => 'Scale',
         'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
         'effect callback' => 'image_scale_effect',
@@ -51,7 +51,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'data' => array(
           'width' => 1630,
           'height' => '',
-          'upscale' => 0,
+          'upscale' => 1,
         ),
         'weight' => 1,
       ),
@@ -281,7 +281,7 @@ function gsb_feature_image_styles_image_default_styles() {
     'name' => '536x_variable',
     'label' => '536x_variable',
     'effects' => array(
-      4 => array(
+      16 => array(
         'label' => 'Scale',
         'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
         'effect callback' => 'image_scale_effect',
@@ -293,7 +293,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'data' => array(
           'width' => 536,
           'height' => '',
-          'upscale' => 0,
+          'upscale' => 1,
         ),
         'weight' => 1,
       ),
@@ -415,7 +415,7 @@ function gsb_feature_image_styles_image_default_styles() {
     'name' => '816x_variable',
     'label' => '816x_variable',
     'effects' => array(
-      1 => array(
+      26 => array(
         'label' => 'Scale',
         'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
         'effect callback' => 'image_scale_effect',
@@ -427,7 +427,7 @@ function gsb_feature_image_styles_image_default_styles() {
         'data' => array(
           'width' => 816,
           'height' => '',
-          'upscale' => 0,
+          'upscale' => 1,
         ),
         'weight' => 1,
       ),
