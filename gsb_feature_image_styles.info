@@ -23,3 +23,4 @@ features[image][] = 566x_variable
 features[image][] = 600x440
 features[image][] = 627x367
 features[image][] = 816x_variable
+features[image][] = resource_preview_image
