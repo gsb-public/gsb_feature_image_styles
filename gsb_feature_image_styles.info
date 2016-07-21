@@ -13,6 +13,7 @@ features[image][] = 170x100
 features[image][] = 170x170
 features[image][] = 270x158
 features[image][] = 270x158_video
+features[image][] = 310px
 features[image][] = 44x44
 features[image][] = 450x253_video
 features[image][] = 450x263
