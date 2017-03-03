@@ -301,10 +301,10 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['program_display_image'] = array(
     'label' => 'Program Display Image',
     'effects' => array(
-      1 => array(
-        'name' => 'tinypng',
+      5 => array(
+        'name' => 'kraken_optimize',
         'data' => array(),
-        'weight' => 1,
+        'weight' => -10,
       ),
     ),
   );
