@@ -106,10 +106,10 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['310px'] = array(
     'label' => '310px',
     'effects' => array(
-      3 => array(
-        'name' => 'tinypng',
+      9 => array(
+        'name' => 'kraken_optimize',
         'data' => array(),
-        'weight' => 1,
+        'weight' => 2,
       ),
     ),
   );
