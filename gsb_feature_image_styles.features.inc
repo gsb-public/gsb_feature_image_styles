@@ -44,47 +44,62 @@ function gsb_feature_image_styles_image_default_styles() {
 
   // Exported image style: 170x100.
   $styles['170x100'] = array(
+    'label' => '170x100',
     'effects' => array(
-      29 => array(
+      6 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => -10,
+      ),
+      5 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 170,
           'height' => 100,
         ),
-        'weight' => 0,
+        'weight' => -9,
       ),
     ),
-    'label' => '170x100',
   );
 
   // Exported image style: 170x170.
   $styles['170x170'] = array(
+    'label' => '170x170',
     'effects' => array(
-      18 => array(
+      2 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => -10,
+      ),
+      1 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 170,
           'height' => 170,
         ),
-        'weight' => 0,
+        'weight' => -9,
       ),
     ),
-    'label' => '170x170',
   );
 
   // Exported image style: 270x158.
   $styles['270x158'] = array(
+    'label' => '270x158',
     'effects' => array(
-      19 => array(
+      8 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => -10,
+      ),
+      7 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 270,
           'height' => 158,
         ),
-        'weight' => 0,
+        'weight' => -9,
       ),
     ),
-    'label' => '270x158',
   );
 
   // Exported image style: 270x158_video.
@@ -253,17 +268,22 @@ function gsb_feature_image_styles_image_default_styles() {
 
   // Exported image style: 600x440.
   $styles['600x440'] = array(
+    'label' => '600x440',
     'effects' => array(
-      27 => array(
+      10 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => -10,
+      ),
+      9 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 600,
           'height' => 440,
         ),
-        'weight' => 0,
+        'weight' => -9,
       ),
     ),
-    'label' => '600x440',
   );
 
   // Exported image style: 627x367.
