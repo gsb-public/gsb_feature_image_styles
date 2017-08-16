@@ -317,6 +317,18 @@ function gsb_feature_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: compress.
+  $styles['compress'] = array(
+    'label' => 'Compress',
+    'effects' => array(
+      1 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: program_display_image.
   $styles['program_display_image'] = array(
     'label' => 'Program Display Image',
