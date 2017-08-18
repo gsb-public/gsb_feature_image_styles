@@ -71,18 +71,23 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['170x170'] = array(
     'label' => '170x170',
     'effects' => array(
-      2 => array(
+      21 => array(
         'name' => 'kraken_optimize',
         'data' => array(),
         'weight' => -10,
       ),
-      1 => array(
+      22 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 170,
           'height' => 170,
         ),
         'weight' => -9,
+      ),
+      23 => array(
+        'name' => 'bypass_image_toolkit',
+        'data' => array(),
+        'weight' => 3,
       ),
     ),
   );
