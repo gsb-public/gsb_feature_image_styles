@@ -51,13 +51,18 @@ function gsb_feature_image_styles_image_default_styles() {
         'data' => array(),
         'weight' => -10,
       ),
-      5 => array(
+      7 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 170,
           'height' => 100,
         ),
         'weight' => -9,
+      ),
+      8 => array(
+        'name' => 'bypass_image_toolkit',
+        'data' => array(),
+        'weight' => 3,
       ),
     ),
   );
@@ -86,18 +91,23 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['270x158'] = array(
     'label' => '270x158',
     'effects' => array(
-      8 => array(
+      9 => array(
         'name' => 'kraken_optimize',
         'data' => array(),
         'weight' => -10,
       ),
-      7 => array(
+      10 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 270,
           'height' => 158,
         ),
         'weight' => -9,
+      ),
+      11 => array(
+        'name' => 'bypass_image_toolkit',
+        'data' => array(),
+        'weight' => 3,
       ),
     ),
   );
@@ -121,8 +131,13 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['310px'] = array(
     'label' => '310px',
     'effects' => array(
-      9 => array(
+      12 => array(
         'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => 2,
+      ),
+      13 => array(
+        'name' => 'bypass_image_toolkit',
         'data' => array(),
         'weight' => 2,
       ),
@@ -270,18 +285,23 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['600x440'] = array(
     'label' => '600x440',
     'effects' => array(
-      10 => array(
+      14 => array(
         'name' => 'kraken_optimize',
         'data' => array(),
         'weight' => -10,
       ),
-      9 => array(
+      15 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 600,
           'height' => 440,
         ),
         'weight' => -9,
+      ),
+      16 => array(
+        'name' => 'bypass_image_toolkit',
+        'data' => array(),
+        'weight' => 3,
       ),
     ),
   );
@@ -326,6 +346,11 @@ function gsb_feature_image_styles_image_default_styles() {
         'data' => array(),
         'weight' => 1,
       ),
+      2 => array(
+        'name' => 'bypass_image_toolkit',
+        'data' => array(),
+        'weight' => 2,
+      ),
     ),
   );
 
@@ -333,10 +358,15 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['program_display_image'] = array(
     'label' => 'Program Display Image',
     'effects' => array(
-      5 => array(
+      17 => array(
         'name' => 'kraken_optimize',
         'data' => array(),
         'weight' => -10,
+      ),
+      18 => array(
+        'name' => 'bypass_image_toolkit',
+        'data' => array(),
+        'weight' => 2,
       ),
     ),
   );
