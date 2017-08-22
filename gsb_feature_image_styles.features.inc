@@ -30,7 +30,7 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['1630x_variable'] = array(
     'label' => '1630x_variable',
     'effects' => array(
-      21 => array(
+      15 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 1630,
@@ -38,6 +38,11 @@ function gsb_feature_image_styles_image_default_styles() {
           'upscale' => 1,
         ),
         'weight' => 1,
+      ),
+      16 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => 2,
       ),
     ),
   );
@@ -71,23 +76,23 @@ function gsb_feature_image_styles_image_default_styles() {
   $styles['170x170'] = array(
     'label' => '170x170',
     'effects' => array(
-      21 => array(
+      1 => array(
         'name' => 'kraken_optimize',
         'data' => array(),
-        'weight' => -10,
+        'weight' => -5,
       ),
-      22 => array(
+      11 => array(
+        'name' => 'bypass_image_toolkit',
+        'data' => array(),
+        'weight' => 3,
+      ),
+      6 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 170,
           'height' => 170,
         ),
-        'weight' => -9,
-      ),
-      23 => array(
-        'name' => 'bypass_image_toolkit',
-        'data' => array(),
-        'weight' => 3,
+        'weight' => 6,
       ),
     ),
   );
@@ -247,8 +252,9 @@ function gsb_feature_image_styles_image_default_styles() {
 
   // Exported image style: 566x396.
   $styles['566x396'] = array(
+    'label' => '566x396',
     'effects' => array(
-      31 => array(
+      23 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 566,
@@ -257,7 +263,7 @@ function gsb_feature_image_styles_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      32 => array(
+      24 => array(
         'name' => 'image_crop',
         'data' => array(
           'width' => 566,
@@ -266,14 +272,19 @@ function gsb_feature_image_styles_image_default_styles() {
         ),
         'weight' => 2,
       ),
+      25 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => 3,
+      ),
     ),
-    'label' => '566x396',
   );
 
   // Exported image style: 566x_variable.
   $styles['566x_variable'] = array(
+    'label' => '566x_variable',
     'effects' => array(
-      3 => array(
+      21 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 566,
@@ -282,8 +293,12 @@ function gsb_feature_image_styles_image_default_styles() {
         ),
         'weight' => 1,
       ),
+      22 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => 2,
+      ),
     ),
-    'label' => '566x_variable',
   );
 
   // Exported image style: 600x440.
@@ -313,8 +328,9 @@ function gsb_feature_image_styles_image_default_styles() {
 
   // Exported image style: 627x367.
   $styles['627x367'] = array(
+    'label' => '627x367',
     'effects' => array(
-      28 => array(
+      19 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 627,
@@ -322,15 +338,19 @@ function gsb_feature_image_styles_image_default_styles() {
         ),
         'weight' => 0,
       ),
+      20 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => 2,
+      ),
     ),
-    'label' => '627x367',
   );
 
   // Exported image style: 816x_variable.
   $styles['816x_variable'] = array(
     'label' => '816x_variable',
     'effects' => array(
-      26 => array(
+      17 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 816,
@@ -338,6 +358,11 @@ function gsb_feature_image_styles_image_default_styles() {
           'upscale' => 1,
         ),
         'weight' => 1,
+      ),
+      18 => array(
+        'name' => 'kraken_optimize',
+        'data' => array(),
+        'weight' => 2,
       ),
     ),
   );
