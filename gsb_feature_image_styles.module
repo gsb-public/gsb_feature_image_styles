@@ -5,3 +5,34 @@
  */
 
 include_once 'gsb_feature_image_styles.features.inc';
+
+/**
+ * Implements hook_url_inbound_alter().
+ */
+function gsb_feature_image_styles_url_inbound_alter(&$path, $original_path, $path_language) {
+  $bad_styles_paths = array(
+    "sites/gsb/files/styles/145x_variable",
+    "sites/gsb/files/styles/1630x_variable",
+    "sites/gsb/files/styles/170x100",
+    "sites/gsb/files/styles/170x170",
+    "sites/gsb/files/styles/270x158",
+    "sites/gsb/files/styles/270x158_video",
+    "sites/gsb/files/styles/310px",
+    "sites/gsb/files/styles/44x44",
+    "sites/gsb/files/styles/450x253_video",
+    "sites/gsb/files/styles/450x263",
+    "sites/gsb/files/styles/450x263_video",
+    "sites/gsb/files/styles/536x_variable",
+    "sites/gsb/files/styles/566x396",
+    "sites/gsb/files/styles/566x_variable",
+    "sites/gsb/files/styles/600x440",
+    "sites/gsb/files/styles/627x367",
+    "sites/gsb/files/styles/816x_variable",
+    "sites/gsb/files/styles/compress",
+    "sites/gsb/files/styles/program_display_image",
+    "sites/gsb/files/styles/resource_preview_image"
+  );
+  if (in_array($path, $bad_styles_paths)) {
+    $path = 'not-found';
+  }
+}
